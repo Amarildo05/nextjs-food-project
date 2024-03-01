@@ -1,10 +1,10 @@
+import Header from "@/components/header/Header";
 import Link from "next/link";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main>
-      <img src="/logo.png" alt="A server surrounded by magic sparkles." />
-      <h1>Welcome to this Nextjs food app!</h1>
+      <Header />
       <p>🔥 Let&apos;s goo! 🔥</p>
       <p>
         <Link href="/about">About Us</Link>
